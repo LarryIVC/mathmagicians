@@ -1,0 +1,24 @@
+.key {
+  display: flex;
+  background-color: #e0e0e0;
+  border: 1px solid #a09f9f;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.key:hover {
+  background-color: #a09f9f;
+}
+
+.orange {
+  background-color: #ec913f;
+}
+
+.orange:hover {
+  background-color: #157fd6;
+  color: #fff;
+}
