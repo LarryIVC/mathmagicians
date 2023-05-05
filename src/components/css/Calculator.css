@@ -3,8 +3,7 @@
   width: 400px;
   display: flex;
   flex-direction: column;
-
-  /* gap: 1px; */
+  gap: 1px;
   height: auto;
   border: 1px solid #858693;
   font-weight: bold;
@@ -16,13 +15,12 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
-
-  /* gap: 1px; */
+  gap: 1px;
 }
 
 .last-row {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-
-  /* gap: 1px; */
+  grid-column: 1 / span 2;
+  gap: 1px;
 }

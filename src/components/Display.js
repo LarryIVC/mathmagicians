@@ -1,10 +1,21 @@
 import React from 'react';
-import './Display.css';
+import './css/Display.css';
+import PropTypes from 'prop-types';
 
-function Display() {
-  return (
-    <div className="Display">0</div>
-  );
-}
+const Display = ({ input }) => (
+  <div className="Display">
+    {input.total}
+    {input.operation}
+    {input.next}
+  </div>
+);
+
+Display.propTypes = {
+  input: PropTypes.shape({
+    total: PropTypes.number.isRequired,
+    next: PropTypes.number,
+    operation: PropTypes.string,
+  }).isRequired,
+};
 
 export default Display;

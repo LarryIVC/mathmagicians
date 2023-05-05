@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Keys.css';
+import './css/Keys.css';
 
-function Key({ children }) {
+const Key = ({ children, manageClick }) => {
   const isOrange = (data) => {
     let output = '';
     if (data === '+' || data === 'x' || data === '-' || data === '÷' || data === '=') {
@@ -11,14 +11,19 @@ function Key({ children }) {
     return output;
   };
   return (
-    <div className={`key ${isOrange(children)}`}>
+    <button
+      className={`key ${isOrange(children)}`}
+      onClick={manageClick}
+      type="button"
+    >
       {children}
-    </div>
+    </button>
   );
-}
+};
 
 Key.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+  manageClick: PropTypes.func.isRequired,
 };
 
 export default Key;
