@@ -1,0 +1,28 @@
+.cont-loader-msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-quote {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+  max-width: 500px;
+  font-size: 0.65em;
+  background-color: #eddba9;
+  border-radius: 25px;
+}
+
+.p-quote {
+  font-weight: 400;
+  font-style: italic;
+  text-align: justify;
+}
+
+.p-author {
+  text-align: end;
+  margin: 5px;
+}
