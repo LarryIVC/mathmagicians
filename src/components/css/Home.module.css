@@ -1,0 +1,15 @@
+.homeCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.pHome {
+  text-align: justify;
+  padding: 1.25em;
+  width: 80%;
+  background-color: #e0e0e080;
+  border-radius: 15px;
+}

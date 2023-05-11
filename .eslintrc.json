@@ -20,7 +20,7 @@
     "import/no-unresolved": "off",
     "no-shadow": "off",
     "import/no-extraneous-dependencies": ["error", {
-      "devDependencies": false, 
+      "devDependencies": ["**/*.test.js", "**/*spec.js", "**/setupTests.js", "src/**/*"], 
       "optionalDependencies": false, 
       "peerDependencies": false
       }]
