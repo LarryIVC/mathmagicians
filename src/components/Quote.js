@@ -34,11 +34,11 @@ const Quote = () => {
     fetchData();
   }, []);
 
-  if (hasError) return <div>Something went wrong!</div>;
+  if (hasError) return <div data-testid="quote">Something went wrong!</div>;
 
   if (isLoading) {
     return (
-      <div className="cont-loader-msg">
+      <div data-testid="quote" className="cont-loader-msg">
         Loading...
         <Loader />
       </div>
@@ -46,7 +46,7 @@ const Quote = () => {
   }
 
   return (
-    <div className="cont-quote">
+    <article data-testid="quote" className="cont-quote">
       {data.length > 0 ? (
         <>
           <p className="p-quote">{`"${data[0].quote}"`}</p>
@@ -58,7 +58,7 @@ const Quote = () => {
       ) : (
         <p>No data available</p>
       )}
-    </div>
+    </article>
   );
 };
 
