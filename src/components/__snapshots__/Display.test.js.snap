@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Display component with input 1`] = `
+<div>
+  <div
+    class="Display"
+  >
+    10
+    +
+    5
+  </div>
+</div>
+`;

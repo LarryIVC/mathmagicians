@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for the Quote component Should render a snapshot of the Quote component 1`] = `
+<div
+  class="cont-loader-msg"
+  data-testid="quote"
+>
+  Loading...
+  <div
+    class="lds-spinner"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</div>
+`;
