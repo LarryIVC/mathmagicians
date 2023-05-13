@@ -12,7 +12,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
     - [Walkthrough to the Math Magicians](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -61,12 +61,12 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
- <!-- <a href="https://">Click here</a> to view live version  -->
+ <a href="https://math-magicians-0p5y.onrender.com">Click here</a> to view live version 
   <!-- This feature is not implemented yet  -->
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> --> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
